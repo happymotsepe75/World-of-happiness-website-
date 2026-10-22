@@ -4,81 +4,95 @@
 <title>World of Happiness - Toys Mamelodi</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{font-family:Arial; margin:0; padding:10px; background:#f5f5f5;}
-.header{background:#0a5ca8; color:white; padding:15px; text-align:center;}
-.toy{background:white; padding:15px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px #ccc;}
-.toy img{width:100%; max-width:300px; border-radius:8px;}
-.btn{display:inline-block; padding:10px 15px; color:white; text-decoration:none; border-radius:5px; margin:5px;}
-#toys{padding-top:20px;}
+body{font-family:Arial; margin:0; background:#f5f5f5;}
+.header{background:#0a5ca8; color:white; padding:20px; text-align:center;}
+.header h1{margin:10px 0 5px 0; font-size:28px;}
+.nav-btns{margin-top:15px;}
+.btn{display:inline-block; padding:12px 18px; color:white; text-decoration:none; border-radius:8px; margin:5px; font-weight:bold; border:none;}
+.btn-orange{background:#ff9800;}
+.btn-white{background:white; color:#0a5ca8;}
+.btn-green{background:#25D366;}
+.btn-blue{background:#0a5ca8;}
+#toys{padding:15px; max-width:800px; margin:auto;}
+.toy{background:white; padding:15px; margin:20px 0; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); text-align:center;}
+.toy img{width:100%; max-width:320px; border-radius:10px; height:220px; object-fit:cover; background:#eee;}
+.toy h3{margin:10px 0 5px 0; color:#0a5ca8;}
+.price{font-size:18px; color:#333;}
+.delivery{color:green; font-size:14px;}
+footer{background:#0a5ca8; color:white; padding:25px; margin-top:30px; text-align:center; line-height:1.6;}
 </style>
 </head>
 <body>
 <div class="header">
-<img src="logo.png" style="width:100%; max-width:380px; background:white; padding:5px; border-radius:10px;">
-<h1 style="margin-top:10px;">World of Happiness</h1>
-
-<p>Mamelodi Toys | PTA R90 | Paxi R150 | Mamelodi R35</p>
-<a class="btn" href="#toys" style="background:orange;">See Toys</a>
-<a class="btn" href="about.html" style="background:white; color:#0a5ca8;">About Us</a>
-<a class="btn" href="information.html" style="background:white; color:#0a5ca8;">How to Pay</a>
+<h1>🧸 World of Happiness</h1>
+<p><strong>Mamelodi R35 | PTA R90 | Paxi R150</strong><br>Trusted Toys Seller in Mamelodi</p>
+<div class="nav-btns">
+<a class="btn btn-orange" href="#toys">🔥 See Toys</a>
+<a class="btn btn-white" href="aboutus.html">About Us</a>
+<a class="btn btn-white" href="information.html">How to Pay</a>
+</div>
 </div>
 
 <div id="toys">
-<h2>🔥 Our Toys - Pay with Capitec Direct!</h2>
+<h2 style="text-align:center;">Our Best Sellers</h2>
 
-<!-- TOY 1 -->
 <div class="toy">
-<img src="blocks.jpg">
+<img src="blocks.jpg" alt="Building Blocks">
 <h3>Building Blocks - 100 pcs</h3>
-<p>ZEUS Building Blocks 100 Blocks - Ages 3+<br><strong>Price R129 + R35 delivery in Mamelodi</strong></p>
-<a class="btn" href="https://pay.capitecbank.co.za/payme/NFZ1RA" style="background:green;">💳 Pay Capitec - R129</a>
-<a class="btn" href="https://wa.me/27670012697?text=Hi%20I%20want%20Blocks%20R129%20+%20R35%20delivery" style="background:#0a5ca8;">Order WhatsApp</a>
+<p>ZEUS Building Blocks - Ages 3+</p>
+<p class="price"><strong>R129</strong></p>
+<p class="delivery">+ R35 Mamelodi Delivery</p>
+<a class="btn btn-green" href="https://pay.capitecbank.co.za/payme/NFZ1RA">💳 Pay Capitec R129</a>
+<a class="btn btn-blue" href="https://wa.me/27670012697?text=Hi%20I%20want%20Blocks%20R129%20%2B%20R35%20delivery%20Mamelodi">Order WhatsApp</a>
 </div>
 
-<!-- TOY 2 -->
 <div class="toy">
-<img src="kitchen.jpg">
+<img src="kitchen.jpg" alt="Kitchen Set">
 <h3>Kitchen Set - 36 pcs</h3>
-<p>Kids Kitchen Cooking Set - Ages 3+<br><strong>Price R80 + R35 delivery in Mamelodi</strong></p>
-<a class="btn" href="https://pay.capitecbank.co.za/payme/NFZ1RA" style="background:green;">💳 Pay Capitec - R80</a>
-<a class="btn" href="https://wa.me/27670012697?text=Hi%20I%20want%20Kitchen%20Set%20R199%20+%20R35%20delivery" style="background:#0a5ca8;">Order WhatsApp</a>
+<p>Kids Kitchen Cooking Set - Ages 3+</p>
+<p class="price"><strong>R80</strong></p>
+<p class="delivery">+ R35 Mamelodi Delivery</p>
+<a class="btn btn-green" href="https://pay.capitecbank.co.za/payme/NFZ1RA">💳 Pay Capitec R80</a>
+<a class="btn btn-blue" href="https://wa.me/27670012697?text=Hi%20I%20want%20Kitchen%20Set%20R80%20%2B%20R35%20delivery">Order WhatsApp</a>
 </div>
 
-<!-- TOY 3 - YOUR LINE 62 -->
 <div class="toy">
-<img src="bee.jpg">
-<h3>Bee General Transformer - Mecha Warrior</h3>
-<p>Robot to Car Super Transformation - Ages 3+<br><strong>Price R349 + R35 delivery in Mamelodi</strong></p>
-<a class="btn" href="https://pay.capitecbank.co.za/payme/NFZ1RA" style="background:green;">💳 Pay Capitec - R349</a>
-<a class="btn" href="https://wa.me/27670012697?text=Hi%20I%20want%20Bee%20General%20R349%20+%20R35%20delivery%20Mamelodi" style="background:#0a5ca8;">Order WhatsApp</a>
+<img src="bee.jpg" alt="Bee Transformer">
+<h3>Bee General Transformer</h3>
+<p>Robot to Car Super Transformation - Ages 3+</p>
+<p class="price"><strong>R349</strong></p>
+<p class="delivery">+ R35 Mamelodi Delivery</p>
+<a class="btn btn-green" href="https://pay.capitecbank.co.za/payme/NFZ1RA">💳 Pay Capitec R349</a>
+<a class="btn btn-blue" href="https://wa.me/27670012697?text=Hi%20I%20want%20Bee%20General%20R349%20%2B%20R35%20delivery">Order WhatsApp</a>
 </div>
 
-<!-- TOY 4 -->
 <div class="toy">
-<img src="doll1.jpg">
+<img src="doll1.jpg" alt="Doll">
 <h3>Beautiful Doll - With Accessories</h3>
-<p>Cute Doll with Dress - Ages 3+<br><strong>Price R249 + R35 delivery in Mamelodi</strong></p>
-<a class="btn" href="https://pay.capitecbank.co.za/payme/NFZ1RA" style="background:green;">💳 Pay Capitec - R249</a>
-<a class="btn" href="https://wa.me/27670012697?text=Hi%20I%20want%20Doll%20R149%20+%20R35%20delivery" style="background:#0a5ca8;">Order WhatsApp</a>
+<p>Cute Doll with Dress - Ages 3+</p>
+<p class="price"><strong>R249</strong></p>
+<p class="delivery">+ R35 Mamelodi Delivery</p>
+<a class="btn btn-green" href="https://pay.capitecbank.co.za/payme/NFZ1RA">💳 Pay Capitec R249</a>
+<a class="btn btn-blue" href="https://wa.me/27670012697?text=Hi%20I%20want%20Doll%20R249%20%2B%20R35%20delivery">Order WhatsApp</a>
 </div>
 
-<!-- TOY 5 -->
 <div class="toy">
-<img src="car.jpg">
+<img src="car.jpg" alt="RC Car">
 <h3>Remote Control Car - Fast Speed</h3>
-<p>RC Racing Car - Ages 4+<br><strong>Price R149 + R35 delivery in Mamelodi</strong></p>
-<a class="btn" href="https://pay.capitecbank.co.za/payme/NFZ1RA" style="background:green;">💳 Pay Capitec - R149</a>
-<a class="btn" href="https://wa.me/27670012697?text=Hi%20I%20want%20RC%20Car%20R249%20+%20R35%20delivery" style="background:#0a5ca8;">Order WhatsApp</a>
+<p>RC Racing Car - Ages 4+</p>
+<p class="price"><strong>R149</strong></p>
+<p class="delivery">+ R35 Mamelodi Delivery</p>
+<a class="btn btn-green" href="https://pay.capitecbank.co.za/payme/NFZ1RA">💳 Pay Capitec R149</a>
+<a class="btn btn-blue" href="https://wa.me/27670012697?text=Hi%20I%20want%20RC%20Car%20R149%20%2B%20R35%20delivery">Order WhatsApp</a>
 </div>
 
 </div>
 
-<footer style="background:#0a5ca8; color:white; padding:20px; margin-top:20px; text-align:center;">
+<footer>
 <p>📍 Mamelodi R35 | PTA R90 | Paxi R150<br>
-💳 Pay: <a href="https://pay.capitecbank.co.za/payme/NFZ1RA" style="color:yellow;">Capitec Pay Me Link</a><br>
-WhatsApp 067 001 2697<br>
-© 2026 World of Happiness</p>
+💳 Capitec Pay Me: NFZ1RA<br>
+📱 WhatsApp: 067 001 2697<br>
+© 2026 World of Happiness - All Rights Reserved</p>
 </footer>
-
 </body>
 </html>
